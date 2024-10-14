@@ -3,36 +3,18 @@
 }
 
 /* ------- NAV ---------*/
-/* todo esto deberia aparecer en las media query de tablet y desktop porque en mobile es reemplazado por el icono del menu hamburguesa */
-
-
 #menu-nav {
     background-color: #FFE1FF;
     height: 50px;
 }
 
 #menu-nav ul {
-    list-style:none;
-    padding:15px;
+    display:none;
 }
 
-#menu-nav ul li {
-    display:inline-block;
-}
-
-/*
-li:hover {
-    border:1px solid #7E60BF;
-    border-radius:10px;
-    padding:5px;
-}
-*/
-
-#menu-nav ul li a {
-    font-family: share tech mono;
-    color:#7E60BF;
-    text-decoration:none;
-    margin:10px;
+#contenedor-icono img {
+    height:50px;
+    /*quiero cambiarle el color -- es con svg? --*/
 }
 
 /* ------- HERO ------- */
@@ -112,6 +94,42 @@ li:hover {
     padding:10px;
 }
 
+@media (min-width:426px) {
+
+/*-------------NAV-----------------------*/    
+  
+
+    #menu-nav ul {
+        display:flex;
+        list-style:none;
+        padding:15px;
+    }
+    
+    #menu-nav ul li {
+        display:inline-block;
+    }
+    
+    /*
+    li:hover {
+        border:1px solid #7E60BF;
+        border-radius:10px;
+        padding:5px;
+    }
+    */
+    
+    #menu-nav ul li a {
+        font-family: share tech mono;
+        color:#7E60BF;
+        text-decoration:none;
+        margin:10px;
+    }
+
+    #contenedor-icono {
+        display:none;
+    }
+}
+
+
 
 
 /* Colores para usar 
@@ -122,3 +140,4 @@ li:hover {
 #FFE1FF
 
 */
+
