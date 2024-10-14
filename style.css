@@ -1,0 +1,124 @@
+* {
+    margin:0;
+}
+
+/* ------- NAV ---------*/
+/* todo esto deberia aparecer en las media query de tablet y desktop porque en mobile es reemplazado por el icono del menu hamburguesa */
+
+
+#menu-nav {
+    background-color: #FFE1FF;
+    height: 50px;
+}
+
+#menu-nav ul {
+    list-style:none;
+    padding:15px;
+}
+
+#menu-nav ul li {
+    display:inline-block;
+}
+
+/*
+li:hover {
+    border:1px solid #7E60BF;
+    border-radius:10px;
+    padding:5px;
+}
+*/
+
+#menu-nav ul li a {
+    font-family: share tech mono;
+    color:#7E60BF;
+    text-decoration:none;
+    margin:10px;
+}
+
+/* ------- HERO ------- */
+
+#hero-hola {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+#contenedor1-texto {
+    width:80vw;
+    height:520px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+#contenedor2-titulos {
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+}
+
+#hero-hola #contenedor1-texto #contenedor2-titulos h1 {
+    color:#404040;
+    font-family: rowdies;
+    font-size:25px;
+    text-align:center;
+    margin:0;
+}
+
+#hero-hola #contenedor1-texto #contenedor2-titulos h2 {
+    color:#7E60BF;
+    font-family:rowdies;
+    font-size:50px;
+    text-align:center;
+    margin:0;
+}
+
+#hero-hola #contenedor1-texto #contenedor2-titulos h3 {
+    color:#7E60BF;
+    text-align:center;
+    font-family:share tech mono;
+    font-size:20px;
+    margin-top:10px;
+}
+
+
+
+#imagen-hero img {
+    margin-bottom: 50px;
+    height:300px;
+    border-radius:200px;
+}
+
+/* ------- PRESENTACION ------- */
+
+
+#contenedor-presentacion h2 {
+    font-size:50px;
+    color:#433878;
+    font-family:rowdies;
+    text-align:center;
+}
+
+#texto-presentacion {
+    padding:20px;
+    background-color:#7E60BF;
+}
+
+#contenedor-presentacion #texto-presentacion p {
+    font-family: share tech mono;
+    color:white;
+    padding:10px;
+}
+
+
+
+/* Colores para usar 
+
+#433878
+#7E60BF
+#E4B1F0
+#FFE1FF
+
+*/
