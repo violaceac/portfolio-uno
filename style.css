@@ -12,9 +12,10 @@
     display:none;
 }
 
-#contenedor-icono img {
-    height:50px;
-    /*quiero cambiarle el color -- es con svg? --*/
+#contenedor-icono #icono {
+    font-size:40px;
+    color:#7E60BF;
+    padding:5px;
 }
 
 /* ------- HERO ------- */
@@ -65,8 +66,6 @@
     margin-top:10px;
 }
 
-
-
 #imagen-hero img {
     margin-bottom: 50px;
     height:300px;
@@ -77,26 +76,100 @@
 
 
 #contenedor-presentacion h2 {
-    font-size:50px;
+    font-size:40px;
     color:#433878;
     font-family:rowdies;
     text-align:center;
+
 }
 
 #texto-presentacion {
+    width:100vw;
     padding:20px;
     background-color:#7E60BF;
 }
 
 #contenedor-presentacion #texto-presentacion p {
-    font-family: share tech mono;
+    width:80vw;
+    font-family: gruppo;
     color:white;
     padding:10px;
 }
 
+/* ----- HABILIDADES -------*/
+
+#habilidades {
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#habilidades h2 {
+    font-family:rowdies;
+    font-size:30px;
+    margin:20px;
+    color:#7E60BF;
+}
+
+.contenedor-logos1 {
+    width:90vw;
+    height:450px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-content:stretch;
+}
+
+.contenedor-logo2 {
+    width:30vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.contenedor-logos1 img {
+    width:75px;
+}
+
+
+#habilidades p {
+    font-family: share tech mono;
+}
+
+#habilidades .blandas {
+    width:100%;
+    background-color:#433878;
+    color:#FFE1FF;
+    font-family:share tech mono;
+    padding:20px;
+}
+
+
+.blandas .contenedor-blanda h3 {
+    margin-left:20px;
+}
+
+.contenedor-blanda .barra-contenedora {
+    width:200px;
+    height:20px;
+    border:1px solid #FFE1FF;
+    border-radius:8px;
+    margin-left:20px;
+}
+
+
+
+
+/*---------------------   QUERYS  -----------------------*/
+
+
+
 @media (min-width:426px) {
 
-/*-------------NAV-----------------------*/    
+/*-----NAV-----*/    
   
 
     #menu-nav ul {
@@ -138,6 +211,6 @@
 #7E60BF
 #E4B1F0
 #FFE1FF
+ */
 
-*/
 

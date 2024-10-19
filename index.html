@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Hacer prolijo lo de las fuentes------------------------------------- -->
 
+    <script src="https://kit.fontawesome.com/e2a5bd4572.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -27,77 +28,114 @@
                 <li><a href="#form-contacto">Escribime</a></li>
             </ul>
             <div id="contenedor-icono">
-                <img src="./imagenes/menu (1).png" alt="">
+                <i id="icono" class="fa-solid fa-bars"></i>
             </div>
         </nav>
     </header>
-    <section id="hero-hola">
-        <div id="contenedor1-texto">
-            <div id="contenedor2-titulos">
-                <h1>Hola! Soy</h1>
-                <h2>Violeta Contreras</h2>
-                <h3>Fotógrafa, aficionada al diseño y estudiante de Front-end.</h3>
+    <main>
+        <section id="hero-hola">
+            <div id="contenedor1-texto">
+                <div id="contenedor2-titulos">
+                    <h1>Hola! Soy</h1>
+                    <h2>Violeta Contreras</h2>
+                    <h3>Fotógrafa, aficionada al diseño y estudiante de Front-end.</h3>
+                </div>
             </div>
-        </div>
-        <div id="imagen-hero">
-            <img src="./imagenes/viole3.png" alt="foto de presentacion">
-        </div>
-    </section>
-    <section id="contenedor-presentacion">
-        <h2>Hola!</h2>
-        <div id="texto-presentacion">
-            <p>Soy Violeta Contreras, fotógrafa freelance basada en  Quilmes (Provincia de Buenos Aires), hace más de 10 años me dedico a la producción de imagen y video. 
-            </p>
-            <p>En mi día a día me dedico a fotografiar milongas en la Ciudad de Buenos Aires, especialmente en los barrios de La Boca y Parque Patricios. También trabajo con pequeños emprendimientos y negocios locales creando contenido audiovisual.
-            </p>
-            <p>Persiguiendo el interés por expandir mi lenguaje visual me he formado de manera autodidacta en diseño gráfico, una herramienta que encuentro clave para enriquecer mis propuestas creativas. 
-            </p>
-            <p>Entre los proyectos de diseño gráfico, el que más aprecio es el libro 'Guía visual de macroalgas de la Costa Atlántica de Uruguay', creado junto a un grupo de investigadores de Rocha y Maldonado, Uruguay.
-            </p>
-            <p>Terminé mis estudios secundarios en una Escuela Técnica con orientación en informática. El mundo de la programación me resulta tan apasionante como desafiante. Cada nuevo aprendizaje me motiva a seguir profundizando y expandiendo mis habilidades en esta área.
-            </p>
-        </div>
-    </section>
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <div>
-            <img src="#" alt="logo photoshop">
-            <p>Photoshop</p>
-        </div>
-        <div>
-            <img src="#" alt="logo lightroom">
-            <p>Lightroom</p>
-        </div>
-        <div>
-            <img src="#" alt="logo illustrator">
-            <p>Illustrator</p>
-        </div>
-        <div>
-            <img src="#" alt="logo Sony vegas">
-            <p>Sony Vegas</p>
-        </div>
-        <div>
-            <img src="#" alt="logo visual studio">
-            <p>Visual Studio Code</p>
-        </div>
-        <div>
-            <img src="#" alt="logo HTML">
-            <p>HTML</p>
-        </div>
-        <div>
-            <img src="#" alt="logo css">
-            <p>CSS</p>
-        </div>
-        <div>
-            <img src="#" alt="logo github">
-            <p>Github</p>
-        </div>
-    </section>
-    <section id="cita">
-        <p>Todo lo que siempre has querido está al otro lado del miedo</p>
-    </section>
-    <section id="proyectos"></section>
-    <section id="form-contacto"></section>
+            <div id="imagen-hero">
+                <img src="./imagenes/viole3.png" alt="foto de presentacion">
+            </div>
+        </section>
+        <section id="contenedor-presentacion">
+            <h2>Bienvenidxs!</h2>
+            <div id="texto-presentacion">
+                <p>Soy Violeta Contreras, fotógrafa freelance basada en  Quilmes (Provincia de Buenos Aires), hace más de 10 años me dedico a la producción de imagen y video. 
+                </p>
+                <p>En mi día a día me dedico a fotografiar milongas en la Ciudad de Buenos Aires, especialmente en los barrios de La Boca y Parque Patricios. También trabajo con pequeños emprendimientos y negocios locales creando contenido audiovisual.
+                </p>
+                <p>Persiguiendo el interés por expandir mi lenguaje visual me he formado de manera autodidacta en diseño gráfico, una herramienta que encuentro clave para enriquecer mis propuestas creativas. 
+                </p>
+                <p>Entre los proyectos de diseño gráfico, el que más aprecio es el libro 'Guía visual de macroalgas de la Costa Atlántica de Uruguay', creado junto a un grupo de investigadores de Rocha y Maldonado, Uruguay.
+                </p>
+                <p>Terminé mis estudios secundarios en una Escuela Técnica con orientación en informática. El mundo de la programación me resulta tan apasionante como desafiante. Cada nuevo aprendizaje me motiva a seguir profundizando y expandiendo mis habilidades en esta área.
+                </p>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="contenedor-logos1">
+                <!-- Modificar todos los logos para que sean del mismo tamaño y cargarlos de nuevo con nombres claros y tamaños adecuados, ver si despues de esto es necesario el contenedor especifico para cada logo-->
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/adobe-photoshop-2024-logo.webp" alt="logo photoshop">
+                    <p>Photoshop</p>
+                </div>
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/Untitled-design-1.png.webp" alt="logo lightroom">
+                    <p>Lightroom</p>
+                </div>
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/Adobe-Illustrator-2024-Logo-PNG-Transparent-Creative-and-Distinctive-Design-jpg.webp" alt="logo illustrator">
+                    <p>Illustrator</p>
+                </div>
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/images.png" alt="logo Sony vegas">
+                    <p>Sony Vegas</p>
+                </div>
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/code-stable.png" alt="logo visual studio">
+                    <p>Visual Studio Code</p>
+                </div>
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/HTML5.webp" alt="logo HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/css-logo-adaweb-scalia-blog-default.png" alt="logo css">
+                    <p>CSS</p>
+                </div>
+                <div class="contenedor-logo2">
+                    <img src="./imagenes/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png" alt="logo github">
+                    <p>Github</p>
+                </div>
+            </div>
+            <div class="blandas">
+                <div class="contenedor-blanda">
+                    <h3>Fotografía</h3>
+                    <div class="barra-contenedora">
+                        <div class="barra-foto"></div>
+                    </div>
+                </div>
+                <div class="contenedor-blanda">
+                    <h3>Inglés</h3>
+                    <div class="barra-contenedora">
+                        <div class="barra-ingles"></div>
+                    </div>
+                </div>
+                <div class="contenedor-blanda">
+                    <h3>Edición de video</h3>
+                    <div class="barra-contenedora">
+                        <div class="barra-video"></div>
+                    </div>
+                </div>
+                <div class="contenedor-blanda">
+                    <h3>Diseño</h3>
+                    <div class="barra-contenedora">
+                        <div class="barra-disenio"></div>
+                    </div>
+                </div>
+                <div class="contenedor-blanda">
+                    <h3>Programación</h3>
+                    <div class="barra-contenedora">
+                        <div class="barra-programacion"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cita">
+            <p>Todo lo que siempre has querido está al otro lado del miedo</p>
+        </section>
+        <section id="proyectos"></section>
+        <section id="form-contacto"></section>
+    </main>
     <footer></footer>
 </body>
 </html>
