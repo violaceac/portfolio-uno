@@ -34,12 +34,10 @@
     </header>
     <main>
         <section id="hero-hola">
-            <div id="contenedor1-texto">
-                <div id="contenedor2-titulos">
-                    <h1>Hola! Soy</h1>
-                    <h2>Violeta Contreras</h2>
-                    <h3>Fotógrafa, aficionada al diseño y estudiante de Front-end.</h3>
-                </div>
+            <div id="contenedor-titulos">
+                <h1>Hola! Soy</h1>
+                <h2>Violeta Contreras</h2>
+                <h3>Fotógrafa, aficionada al diseño y estudiante de Front-end.</h3>
             </div>
             <div id="imagen-hero">
                 <img src="./imagenes/viole3.png" alt="foto de presentacion">
@@ -62,67 +60,67 @@
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
-            <div class="contenedor-logos1">
+            <div class="contenedor-logos">
                 <!-- Modificar todos los logos para que sean del mismo tamaño y cargarlos de nuevo con nombres claros y tamaños adecuados, ver si despues de esto es necesario el contenedor especifico para cada logo-->
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/adobe-photoshop-2024-logo.webp" alt="logo photoshop">
                     <p>Photoshop</p>
                 </div>
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/Untitled-design-1.png.webp" alt="logo lightroom">
                     <p>Lightroom</p>
                 </div>
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/Adobe-Illustrator-2024-Logo-PNG-Transparent-Creative-and-Distinctive-Design-jpg.webp" alt="logo illustrator">
                     <p>Illustrator</p>
                 </div>
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/images.png" alt="logo Sony vegas">
                     <p>Sony Vegas</p>
                 </div>
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/code-stable.png" alt="logo visual studio">
                     <p>Visual Studio Code</p>
                 </div>
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/HTML5.webp" alt="logo HTML">
                     <p>HTML</p>
                 </div>
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/css-logo-adaweb-scalia-blog-default.png" alt="logo css">
                     <p>CSS</p>
                 </div>
-                <div class="contenedor-logo2">
+                <div class="logo">
                     <img src="./imagenes/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png" alt="logo github">
                     <p>Github</p>
                 </div>
             </div>
-            <div class="blandas">
-                <div class="contenedor-blanda">
+            <div class="contenedor-blandas">
+                <div class="blanda">
                     <h3>Fotografía</h3>
                     <div class="barra-contenedora">
                         <div class="barra-foto"></div>
                     </div>
                 </div>
-                <div class="contenedor-blanda">
+                <div class="blanda">
                     <h3>Inglés</h3>
                     <div class="barra-contenedora">
                         <div class="barra-ingles"></div>
                     </div>
                 </div>
-                <div class="contenedor-blanda">
+                <div class="blanda">
                     <h3>Edición de video</h3>
                     <div class="barra-contenedora">
                         <div class="barra-video"></div>
                     </div>
                 </div>
-                <div class="contenedor-blanda">
+                <div class="blanda">
                     <h3>Diseño</h3>
                     <div class="barra-contenedora">
                         <div class="barra-disenio"></div>
                     </div>
                 </div>
-                <div class="contenedor-blanda">
+                <div class="blanda">
                     <h3>Programación</h3>
                     <div class="barra-contenedora">
                         <div class="barra-programacion"></div>
@@ -132,10 +130,32 @@
         </section>
         <section id="cita">
             <p>Todo lo que siempre has querido está al otro lado del miedo</p>
+            <h3>George Addair</h3>
         </section>
         <section id="proyectos"></section>
-        <section id="form-contacto"></section>
+        <section id="form-contacto">
+            <div class="contenedor-texto">
+                <h3>Escribime</h3>
+                <p>¿Tenes un proyecto en mente? Contame y empecemos a trabajar juntos para llevar tu visión al próximo nivel.</p>
+            </div>
+            <form action="">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                 </div>
+                 <div class="campo">
+                    <label for="mail">E-mail</label>
+                    <input type="email" placeholder="ejemplo@ejemplo.com">
+                 </div>   
+                 <div class="campo-consulta">
+                    <label for="mensaje">Dejame tu consulta</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Acá tu consulta"></textarea>
+                 </div>
+            </form>
+            <button type="submit">ENVIAR</button>
+        </section>
     </main>
     <footer></footer>
 </body>
 </html>
+

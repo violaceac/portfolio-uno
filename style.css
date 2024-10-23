@@ -27,22 +27,16 @@
     margin-bottom:30px;
 }
 
-#contenedor1-texto {
+
+#contenedor-titulos {
     width:80vw;
-    height:520px;
+    height:450px;
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
+    justify-content:center;
 }
 
-#contenedor2-titulos {
-    height:300px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center; 
-}
-
-#hero-hola #contenedor1-texto #contenedor2-titulos h1 {
+#hero-hola #contenedor-titulos h1 {
     color:#404040;
     font-family: rowdies;
     font-size:25px;
@@ -50,7 +44,7 @@
     margin:0;
 }
 
-#hero-hola #contenedor1-texto #contenedor2-titulos h2 {
+#hero-hola #contenedor-titulos h2 {
     color:#7E60BF;
     font-family:rowdies;
     font-size:50px;
@@ -58,7 +52,7 @@
     margin:0;
 }
 
-#hero-hola #contenedor1-texto #contenedor2-titulos h3 {
+#hero-hola #contenedor-titulos h3 {
     color:#7E60BF;
     text-align:center;
     font-family:share tech mono;
@@ -85,15 +79,19 @@
 
 #texto-presentacion {
     width:100vw;
-    padding:20px;
+    padding:20px 0;
     background-color:#7E60BF;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
 }
 
 #contenedor-presentacion #texto-presentacion p {
     width:80vw;
     font-family: gruppo;
     color:white;
-    padding:10px;
+    padding: 10px 0;
 }
 
 /* ----- HABILIDADES -------*/
@@ -113,53 +111,206 @@
     color:#7E60BF;
 }
 
-.contenedor-logos1 {
-    width:90vw;
+.contenedor-logos {
+    width:95vw;
     height:450px;
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-evenly;
-    align-content:stretch;
+    justify-content:space-around;
 }
 
-.contenedor-logo2 {
-    width:30vw;
+.contenedor-logos img {
+    width:75px;
+}
+
+.logo {
+    width:25vw;
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
     align-items:center;
 }
 
-.contenedor-logos1 img {
-    width:75px;
-}
-
-
-#habilidades p {
+#habilidades .contenedor-logos .logo p {
     font-family: share tech mono;
+    text-align:center;
 }
 
-#habilidades .blandas {
-    width:100%;
-    background-color:#433878;
+#habilidades .contenedor-blandas {
+    width:100vw;
+    height:350px;
+    padding: 20px 0;
+    background: linear-gradient(36deg, rgba(126,96,191,0.8631827731092436) 0%, rgba(67,56,120,1) 100%);
     color:#FFE1FF;
     font-family:share tech mono;
-    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
 }
 
-
-.blandas .contenedor-blanda h3 {
-    margin-left:20px;
+.contenedor-blandas .blanda {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:50px;
+    padding-left:15px;
 }
 
-.contenedor-blanda .barra-contenedora {
+.blanda .barra-contenedora {
     width:200px;
     height:20px;
     border:1px solid #FFE1FF;
     border-radius:8px;
-    margin-left:20px;
 }
 
+.blanda .barra-contenedora .barra-foto {
+    border-radius:8px;
+    height:20px;
+    width:160px;
+    background: linear-gradient(36deg, rgba(126,96,191,0.8631827731092436) 0%, rgba(255,225,255,1) 100%);
+}
+
+.blanda .barra-contenedora .barra-ingles {
+    border-radius:8px;
+    height:20px;
+    width:120px;
+    background: linear-gradient(36deg, rgba(126,96,191,0.8631827731092436) 0%, rgba(255,225,255,1) 100%);
+}
+
+.blanda .barra-contenedora .barra-video {
+    border-radius:8px;
+    height:20px;
+    width:100px;
+    background: linear-gradient(36deg, rgba(126,96,191,0.8631827731092436) 0%, rgba(255,225,255,1) 100%);
+}
+
+.blanda .barra-contenedora .barra-disenio {
+    border-radius:8px;
+    height:20px;
+    width:90px;
+    background: linear-gradient(36deg, rgba(126,96,191,0.8631827731092436) 0%, rgba(255,225,255,1) 100%);
+}
+
+.blanda .barra-contenedora .barra-programacion {
+    border-radius:8px;
+    height:20px;
+    width:40px;
+    background: linear-gradient(36deg, rgba(126,96,191,0.8631827731092436) 0%, rgba(255,225,255,1) 100%);
+}
+
+
+
+/* ----------- CITA --------------*/
+
+#cita {
+    width:95vw;
+    padding-bottom:20px;
+}
+
+#cita p {
+    font-family:share tech mono;
+    font-size:40px;
+    text-align:center;
+    padding: 40px 0;
+    color:#7E60BF;
+}
+
+#cita h3 {
+    font-family:jura;
+    font-size:27px;
+    text-align:right;
+    color:#433878;
+}
+
+
+/* ---------- FORMULARIOS ------------ */
+
+#form-contacto {
+    color:#FFE1FF;
+    font-family:chakra petch;
+    width:100vw;
+    height:500px;
+    padding: 15px 0;
+    background: linear-gradient(227deg, rgba(126,96,191,0.8631827731092436) 29%, rgba(255,225,255,1) 100%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#form-contacto .contenedor-texto {
+    width:90vw;
+    height:130px;
+    padding-bottom:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+#form-contacto .contenedor-texto h3 {
+    font-family:rowdies;
+    font-size:30px;
+    text-align:center;
+}
+
+#form-contacto .contenedor-texto p {
+    text-align:center;
+}
+
+#form-contacto .campo {
+    height:50px;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+}
+
+#form-contacto .campo input {
+    border: none;
+    border-radius:4px;
+    padding:5px;
+}
+
+#form-contacto .campo-consulta {
+    width:300px;
+    display:flex;
+    flex-direction:column;
+}
+
+#form-contacto textarea {
+    height:100px;
+    border:none;
+    border-radius:4px;
+    resize:none;
+    padding:5px;
+}
+
+#form-contacto button {
+    font-family: share tech mono;
+    color:#FFE1FF;
+    width:60%;
+    padding:10px;
+    margin-top:20px;
+    background-color:#7E60BF;
+    border:0;
+    border-radius:5px;
+}
+
+
+/* button {
+    width:100%;
+    color: white;
+    background-color: #8163BD;
+    padding:10px;
+    border-radius:5px;
+    border:0
+} */
+
+/* textarea {
+    resize: none;
+    height:100px;
+    width:100%;
+    padding:10px;
+    border-radius:5px;
+} */
 
 
 
