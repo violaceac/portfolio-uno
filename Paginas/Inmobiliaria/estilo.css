@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* header */
+
+.hero {
+    width:100%;
+    position:relative;
+}
+
+nav {
+    padding:30px;
+    background-color: #e07a5f;
+    font-size: 20px;
+    /* position: fixed; */
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+
+
+/* main */
+
+
+.text{
+    font-size: 20px;
+    width: 500px;
+    padding:20px;
+    color: #f4f1de;
+}
+
+.text h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+/* ----------------- */
+
+.nav-wave {
+    width:100%;
+    height:100px;
+    position:absolute;
+    top:0;
+}
+
+#home {
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+    padding-bottom: 40px;
+    background-color: #3d405b;
+    width:100%;
+    position:relative;
+}
+
+.casita img {
+    width:500px;
+    padding:20px;
+
+}
+
+/* -------------------- */
+
+.home-wave {
+    width:100%;
+    height:50%;
+    position:absolute;
+    top:0;
+}
+
+#compra {
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+    padding-bottom:40px;
+    background-color: #81b29a;
+    width:100%;
+    position:relative;
+}
+
+.llaves img {
+    width:500px;
+    padding:20px;
+}
+
+
+/* ----------------------- */
+
+.compra-wave{
+    width:100%;
+    height:50%;
+    position:absolute;
+    top:-30px;
+}
+
+#vacaciones {
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+    padding-bottom:40px;
+    background-color: #f2cc8f;
+    width:100%;
+    position:relative;
+}
+
+.pileta img {
+    width:500px;
+    padding:20px;
+}
+
+/* ----------------------- */
+
+.vacaciones-wave {
+    width:100%;
+    height:50%;
+    position:absolute;
+    top:0;
+}
+
+#mudanza {
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+    background-color: #e07a5f;
+    width:100%;
+    position:relative;
+}
+
+.camioneta img{
+    width:400px;
+    padding:20px;
+}
+
+/* ----------------------- */
+
+.mudanza-wave {
+    width:100%;
+    height:50%;
+    position:absolute;
+    top:-40px;
+}
+
+.text-cont {
+    padding:50px;
+}
+
+#contacto {
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:#3d405b;
+    width:100%;
+    position:relative;
+}
+
+form {
+    margin:auto;
+    width:300px;
+    margin-top:100px;
+    padding:20px;
+    border: 1px solid #0f122e;
+    border-radius:8px;
+}
+
+.campo {
+    margin: 10px 0;
+}
+
+label {
+    display:block;
+    margin-bottom:8px;
+    color:#f4f1de;
+    font-size:20px;
+}
+
+input {
+    width:100%;
+    padding:10px;
+}
+
+textarea {
+    resize:none;
+    height:100px;
+    width:100%;
+}
+
+button {
+    width:100%;
+    color:#f4f1de;
+    background-color:#0f122e;
+    padding:10px;
+    border-radius: 5px;
+    border:0;
+}
+
+.personita img {
+    width:300px;
+    padding:40px;
+}
+
+/* footer */
+
+.foot-rrss h3 {
+    color:black;
+}
+
+footer {
+    display:flex;
+    justify-content:space-around;
+    padding-top:100px;
+    padding-bottom:40px;
+    background-color:#81b29a;
+    width:100%;
+    position:relative;
+}
+
+.foot-rrss {
+    padding:50px;
+}
+
+.foot-info {
+    padding:50px;
+}
+
+.footer-wave {
+    width:100%;
+    height:30%;
+    position:absolute;
+    bottom:-1px;
+}
+
+
+
+
+
+
+
+/* ----------------------- */
+
+/* ----------------------- */
+
+/* ----------------------- */
+
+/* ----------------------- */
+
+/* ----------------------- */

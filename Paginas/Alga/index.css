@@ -1,0 +1,319 @@
+header {
+    width:100%;
+}
+
+body {
+    width:100%;
+}
+
+/* ----------nav-------------- */
+
+.menu-nav {
+    background-color: #87151d;
+    height: 60px;
+    padding: 20px;
+}
+
+.menu-nav ul {
+    margin: 0;
+    list-style-type:none;
+}
+
+.menu-nav ul li {
+    display:inline-block;
+    align-items: center;
+}
+
+.link-nav {
+    text-decoration:none;
+    color:white;
+    font-family: oswald;
+    margin:10px;
+}
+
+/* ----------hero-------------- */
+
+.contenedor-hero {
+    background-image: url(imagenes/amp-hero.png);  
+    height: 500px;
+    display:flex;
+}
+
+.hero-texto {
+    width:1000px;
+    margin:0 50px 50px 50px;
+}
+
+h1 {
+    font-family: oswald;
+    color:white;
+    font-size: 200px;
+    margin: 0;
+}
+
+.hero-texto p {
+    font-family: josefin slab;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    color:#1f1f1f;
+}
+
+.hero-boton {
+    color:#eaeaea;
+    font-family: oswald;
+    font-size:20px;
+    background-color:#87151d;
+    padding:15px 50px;
+    border:0;
+    border-radius: 6px;
+    box-shadow: 4px 6px 10px -6px #5c1419;
+}
+
+/* ----------cards con imagenes-------------- */
+
+#imagenes {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.amp-card {
+    width:300px;
+    height:550px;
+    margin: 10px;
+    border: 1px solid #502e30;
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: oswald;
+    text-align:center;
+    margin-bottom: 0;
+}
+
+.amp-img {
+    width:200px;
+    height:200px;
+    margin: 50px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+}
+
+.texto-card {
+    width:200px;
+    height:100px;
+    margin:20px 50px;
+    font-family: josefin slab;
+    color:#1f1f1f;
+    text-align:center;
+}
+
+.amp-boton {
+    color:#eaeaea;
+    font-family: oswald;
+    background-color:#87151d;
+    padding:10px 20px;
+    margin: 5px auto;
+    border:0;
+    border-radius: 6px;
+    box-shadow: 4px 6px 10px -6px #5c1419;
+    display:block;
+}
+
+/* ----------formulario-------------- */
+
+#contenedor-seccion-formulario {
+    background-color:#87151d;
+    height:430px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.suscribite {
+    font-family:oswald;
+    font-size:25px;
+    display:flex;
+    justify-content:center;
+}
+
+.contenedor-texto-formulario {
+    display:flex;
+    justify-content:center;
+}
+
+.form-texto {
+    font-family: josefin slab;
+    justify-content: center;
+    width:500px;
+    text-align:center;
+}
+
+.contenedor-formulario {
+    height:200px;
+    border: 2px solid #5c1419;
+    border-radius:20px;
+}
+
+.formulario {
+    font-family: josefin slab;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    height:200px;
+}
+
+.formulario .contenedor-inputs {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width:300px;
+    height:110px;
+    padding: 0 20px;
+}
+
+.formulario button {
+    font-family:oswald;
+    width:250px;
+    height:30px;
+    align-self:center;
+    background-color:#ffffff;
+    color:#5c1419;
+    border:none;
+    border-radius:5px;
+}
+
+/* ----------cientificos-------------- */
+
+#contenedor-cientificos {
+    display:flex;
+    justify-content:space-around;
+}
+
+.cientifico {
+    width:320px;
+    margin: 30px 0;
+    border-radius:6px;
+    box-shadow: 0px 0px 31px -5px rgba(176,176,176,0.4);
+}
+
+.cientifico h2 {
+    font-family: oswald;
+    text-align:center;
+}
+
+.cientifico figure {
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+
+.cientifico figure img {
+    padding:10px;
+    border-radius:150px;
+}
+
+.cientifico figcaption {
+    padding:10px;
+    text-align:center;
+    font-family: josefin slab;
+    font-size: 18px;
+    font-weight:bold;
+    color: #686060;
+}
+
+.texto-cientifico {
+    width:250px;
+    margin:20px;
+    font-family: josefin slab;
+}
+
+/* ----------footer-------------- */
+
+.contenedor-footer {
+    background-color: #87151d;
+    color:#ffffff;
+    height:100px;
+    display:flex;
+    justify-content:center;
+}
+
+.contenedor-footer h3 {
+    font-family:oswald;
+}
+
+.contenedor-footer ul {
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+.link-footer {
+    text-decoration:none;
+    color:white;
+    font-family: oswald;
+}
+
+/* ----------responsive-------------- */
+
+@media (max-width:425px) {
+    .menu-nav {
+        height: 80px;
+    }
+
+    .menu-nav ul li {
+        display:block;
+        padding:3px;
+    }
+
+    .contenedor-hero { 
+        height:550px;
+    }
+
+    .hero-texto {
+        width:100vw;
+    }
+
+    h1 {
+        font-size: 65px;
+        text-align:end;
+        margin:40px 0;
+    }
+
+    .hero-texto p {
+        font-size: 20px;
+        font-weight: 600;
+        text-align:center;
+        margin: 40px 0;
+    }
+
+    /* el boton esta en cualquiera... revisar en html a y button  misma clase */
+    
+
+    .hero-boton {
+        align-self:center;
+    }
+
+
+/* ----------------------------------------------- */
+
+
+    #imagenes {
+        width: 100%;
+        margin: 50px 0;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+    }
+}
+
+
+
+#contenedor-cientificos {
+    flex-wrap:wrap;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amphiroa spp.</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="menu-nav">
+            <ul>
+                <li><a class="link-nav" href="#imagenes">Imágenes</a></li>
+                <li><a class="link-nav" href="#contenedor-seccion-formulario">Newsletter</a></li>
+                <li><a class="link-nav" href="#contenedor-cientificos">Autores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-hero">
+            <div class="hero-texto">
+                <h1>Amphiroa spp.</h1>
+                <p> Alga esqueleto de la familia de las calcáreas articuladas. Pueden crecer hasta 10 cm. Están
+                    presentes todo el año. No son comestibles</p>
+                <a href="#formulario"><button class="hero-boton">Saber más</button></a>
+            </div>
+        </div>
+        <section id="imagenes">
+            <div class="amp-card">
+                <h5>Imagen 1</h5>
+                <img class="amp-img" src="./imagenes/amp1.png" alt="alga esqueleto sobre mejillón">
+                <p class="texto-card">Individuo de alga esqueleto sobre la que crece como epífita el alga roja común
+                    (Cryptopleura ramosa).
+                </p>
+                <button class="amp-boton">Más info</button>
+            </div>
+            <div class="amp-card">
+                <h5>Imagen 2</h5>
+                <img class="amp-img" src="./imagenes/amp2.png" alt="alga esqueleto sostenida por una mano">
+                <p class="texto-card">Individuo de alga esqueleto creciendo sobre mitílido (mejillón) mostrando el
+                    típico color violáceo que presentan los individuos vivos
+                    .</p>
+                <button class="amp-boton">Más info</button>
+            </div>
+            <div class="amp-card">
+                <h5>Imagen 3</h5>
+                <img class="amp-img" src="./imagenes/amp3.png" alt="detalle de conceptaculos alga esqueleto">
+                <p class="texto-card">Estructuras reproductivas en conceptáculos. Cuando el alga está en reproducción al
+                    tacto se notan unas protuberancias que son los conceptáculos.
+                </p>
+                <button class="amp-boton">Más info</button>
+            </div>
+        </section>
+        <section id="contenedor-seccion-formulario">
+            <h3 class="suscribite">Suscribite a nuestro newsletter</h3>
+            <div class="contenedor-texto-formulario">
+                <p class="form-texto">Recibí las últimas novedades del mundo de las algas en tu casilla y enterate de las
+                    conferencias y charlas que vamos a estar haciendo por todo el país.
+                </p>
+            </div>
+            <div class="contenedor-formulario">
+                <form class="formulario" action="#" method="get" enctype="application/x-www-form-urlencoded">
+                    <div class="contenedor-inputs">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </section>
+        <section id="contenedor-cientificos">
+            <article class="cientifico">
+                <h2>Gabriela Velez-Rubio</h2>
+                <figure>
+                    <img src="./imagenes/gaby.png">
+                    <figcaption>Bióloga y Doctora en Biodiversidad.</figcaption>
+                </figure>
+                <div class="texto-cientifico">
+                    <p>Actualmente es docente de Facultad de Ciencias y del Centro Universitario Regional del Este (Udelar). Especializada en biología y ecología de macroalgas.
+                    </p>
+                    <p>gabriela.velezrubio@gmail.com
+                    </p>
+                </div>
+            </article>
+            <article class="cientifico">
+                <h2>Fabrizio Scarabino</h2>
+                <figure>
+                    <img src="./imagenes/fabri.png">
+                    <figcaption>Magíster en Manejo Costero Integrado, zoólogo y taxómono.</figcaption>
+                </figure>
+                <div class="texto-cientifico">
+                    <p>Actualmente es docente del Centro Universitario Regional del Este (Udelar). Especializado en invertebrados, viene ampliando su área de trabajo a etnobiología, peces y macroalgas.
+                    </p>
+                    <p>fabrizioscarabino@gmail.com
+                    </p>
+                </div>
+            </article>
+            <article class="cientifico">
+                <h2>Ariel de León-Mackey</h2>
+                <figure>
+                    <img src="./imagenes/Ari.png">
+                    <figcaption>Licenciado en Ciencias Biológicas.</figcaption>
+                </figure>
+                <div class="texto-cientifico">
+                    <p>Actualmente está estudiando la presencia de especies exóticas de macroalgas mediante el uso de técnicas moleculares y morfológicas.
+                    </p>
+                    <p>adeleonmckey@gmail.com
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer> 
+        <div class="contenedor-footer">
+            <h3>Seguinos en nuestras redes sociales!</h3>
+            <ul>
+                <li><a class="link-footer" href="#">Instagram</a></li>
+                <li><a class="link-footer" href="#">Facebook</a></li>
+                <li><a class="link-footer" href="#">YouTube</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
