@@ -3,20 +3,22 @@
 }
 
 /* ------- NAV ---------*/
-#menu-nav {
+header .menu-nav {
     background-color: #FFE1FF;
     height: 50px;
 }
 
-#menu-nav ul {
+header .menu-nav ul {
     display:none;
 }
 
-#contenedor-icono #icono {
+header .contenedor-icono #icono {
     font-size:40px;
     color:#7E60BF;
     padding:5px;
 }
+
+
 
 /* ------- HERO ------- */
 
@@ -26,7 +28,6 @@
     align-items:center;
     margin-bottom:30px;
 }
-
 
 #contenedor-titulos {
     width:80vw;
@@ -66,6 +67,8 @@
     border-radius:200px;
 }
 
+
+
 /* ------- PRESENTACION ------- */
 
 
@@ -93,6 +96,8 @@
     color:white;
     padding: 10px 0;
 }
+
+
 
 /* ----- HABILIDADES -------*/
 
@@ -200,8 +205,6 @@
 
 
 
-
-
 /* ----------- CITA --------------*/
 
 #cita {
@@ -231,7 +234,6 @@
     text-align:right;
     color:#433878;
 }
-
 
 
 
@@ -272,13 +274,16 @@
     flex-direction:column;
 }
 
+.contenedor-proyectos .proyecto img {
+    border-radius:5px;
+}
+
 #proyectos .proyecto h2 {
     font-family:share tech mono;
     font-size:15px;
     text-align:center;
     color:#7E60BF;
 }
-
 
 
 
@@ -355,8 +360,59 @@
 
 
 
+/* ---------- FOOTER ------------ */
 
-/*---------------------   QUERYS  -----------------------*/
+footer {
+    background-color: #7E60BF;
+    padding: 30px 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+footer .rrss {
+    height:150px;
+    width:70vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+footer .rrss h3 {
+    font-size:30px;
+    font-family:rowdies;
+    color:#FFE1FF;
+}
+
+footer .rrss .contenedor-links {
+    height:50px;
+    width:75%;
+    display:flex;
+    justify-content:space-around;
+}
+
+footer .rrss .contenedor-links a {
+    color:#433878;
+    font-size:30px;
+    text-decoration:none;
+}
+
+footer .rrss p {
+    font-family: chakra petch;
+    color:#FFE1FF;
+}
+
+footer .menu-nav ul {
+    display:none;
+}
+
+
+
+
+
+
+/*-------------------------------   QUERYS  ---------------------------------------*/
 
 
 
@@ -365,13 +421,13 @@
 /*-----NAV-----*/    
   
 
-    #menu-nav ul {
+    header .menu-nav ul {
         display:flex;
         list-style:none;
         padding:15px;
     }
     
-    #menu-nav ul li {
+    header .menu-nav ul li {
         display:inline-block;
     }
     
@@ -383,14 +439,14 @@
     }
     */
     
-    #menu-nav ul li a {
+    header .menu-nav ul li a {
         font-family: share tech mono;
         color:#7E60BF;
         text-decoration:none;
         margin:10px;
     }
 
-    #contenedor-icono {
+    header .contenedor-icono {
         display:none;
     }
 }
