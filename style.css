@@ -4,7 +4,7 @@
 
 /* ------- NAV ---------*/
 header .menu-nav {
-    background-color: #FFE1FF;
+    box-shadow: 0px 7px 18px -9px rgba(126,96,191,0.75);
     height: 50px;
 }
 
@@ -240,6 +240,7 @@ header .contenedor-icono #icono {
 /* ----------- PROYECTOS --------------*/
 
 #proyectos {
+    height:450px;
     display:flex;
     flex-direction:column;
     align-items:space-around;
@@ -250,6 +251,7 @@ header .contenedor-icono #icono {
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+    flex-wrap:wrap;
 }
 
 #proyectos h3 {
@@ -269,9 +271,14 @@ header .contenedor-icono #icono {
 }
 
 #proyectos .proyecto {
-    width:100px;
+    box-shadow: 0px 0px 35px -5px rgba(126,96,191,0.43);
+    border-radius:7px;
+    width:160px;
+    height:260px;
     display:flex;
     flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
 }
 
 .contenedor-proyectos .proyecto img {
@@ -279,10 +286,22 @@ header .contenedor-icono #icono {
 }
 
 #proyectos .proyecto h2 {
+    width:70%;
     font-family:share tech mono;
-    font-size:15px;
+    font-size:12px;
     text-align:center;
     color:#7E60BF;
+}
+
+
+#proyectos .proyecto button {
+    background-color:#7E60BF;
+    font-family: share tech mono;
+    font-size:12px;
+    color:#FFE1FF;
+    padding:8px 30px;
+    border:0;
+    border-radius:5px;
 }
 
 
@@ -416,7 +435,7 @@ footer .menu-nav ul {
 
 
 
-@media (min-width:426px) {
+@media (min-width:768px) {
 
 /*-------------- NAV --------------*/    
   
