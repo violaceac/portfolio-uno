@@ -61,11 +61,14 @@ header .contenedor-icono #icono {
     margin-top:10px;
 }
 
+
+
 #imagen-hero img {
     margin-bottom: 50px;
     height:300px;
     border-radius:200px;
 }
+
 
 
 
@@ -504,7 +507,7 @@ footer .menu-nav ul {
 /*-------------- FORMULARIO --------------*/
 
 #form-contacto button {
-    width:30%;
+    width:40%;
 }
 
 /*-------------- FOOTER --------------*/
@@ -562,6 +565,12 @@ footer .rrss {
     justify-content:center;
 }
 
+/*-------------- FORMULARIO --------------*/ 
+
+#form-contacto button {
+    width:30%;
+}
+
 }
 
 
@@ -580,7 +589,7 @@ footer .rrss {
 /*-------------- FORMULARIO --------------*/  
 
     #form-contacto button {
-        width:10%;
+        width:20%;
     }
 }
 
