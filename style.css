@@ -285,6 +285,7 @@ header .contenedor-icono #icono {
     border-radius:5px;
 }
 
+
 #proyectos .proyecto h2 {
     width:70%;
     font-family:share tech mono;
@@ -449,6 +450,7 @@ footer .menu-nav ul {
     header .menu-nav ul li {
         display:inline-block;
     }
+
     
     header .menu-nav ul li a {
         font-family: share tech mono;
@@ -456,6 +458,7 @@ footer .menu-nav ul {
         text-decoration:none;
         margin:10px;
     }
+
 
     header .contenedor-icono {
         display:none;
@@ -529,6 +532,8 @@ footer .rrss {
 
 }
 
+
+
 @media (min-width:1024px) {
 
 /*-------------- HERO --------------*/ 
@@ -553,6 +558,30 @@ footer .rrss {
     justify-content:center;
 }
 
+#habilidades .contenedor-blandas {
+    justify-content:center;
+}
+
+}
+
+
+
+@media (min-width:1440px) {
+/*-------------- HABILIDADES --------------*/   
+
+    #habilidades .contenedor-blandas {
+        justify-content:center;
+    }
+
+    .contenedor-blandas .blanda {
+        padding:0 30px;
+    }
+
+/*-------------- FORMULARIO --------------*/  
+
+    #form-contacto button {
+        width:10%;
+    }
 }
 
 
