@@ -61,14 +61,53 @@ header .contenedor-icono #icono {
     margin-top:10px;
 }
 
-
+#imagen-hero {
+    position:relative;
+}
 
 #imagen-hero img {
     margin-bottom: 50px;
     height:300px;
     border-radius:200px;
+    position:relative;
+    z-index:99;
 }
 
+#imagen-hero .circulo-violeta {
+    background-color:#7E60BF;
+    height:300px;
+    width:300px;
+    border-radius:300px;
+    position:absolute;
+    top:-10px;
+    left:-5px;
+}
+
+#imagen-hero .datos {
+    font-family:chakra petch;
+    font-size:12px;
+    color:white;
+    background-color:#7E60BF;
+    padding:10px;
+    border-radius:10px;
+    position:absolute;
+    top:200px;
+    left:-5px;
+    z-index:100;
+}
+
+#imagen-hero .mail {
+    font-family:chakra petch;
+    font-size:12px;
+    color:white;
+    background-color:#7E60BF;
+    padding:10px;
+    border-radius:10px;
+    position:absolute;
+    top:260px;
+    left:25px;
+    z-index:100;
+}
 
 
 
@@ -482,13 +521,6 @@ footer .menu-nav ul {
         width:50vw;
         height:300px;
     }
-    
-    
-    #imagen-hero img {
-        margin-bottom: 50px;
-        height:200px;
-        border-radius:200px;
-    }
 
 
 
@@ -548,6 +580,18 @@ footer .rrss {
     #imagen-hero img {
         height:350px;
     }
+
+    #imagen-hero {
+        position:relative;
+    }
+    
+    
+    #imagen-hero .circulo-violeta {
+        height:350px;
+        width:350px;
+    }
+    
+
 
 /*-------------- PRESENTACION --------------*/ 
 
